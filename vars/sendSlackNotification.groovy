@@ -4,4 +4,5 @@ def call(String buildStatus,String channel) {
                   "Details: ${env.BUILD_URL}console"
     slackSend(channel: channel, color: color, message: message)
     
+
 }
