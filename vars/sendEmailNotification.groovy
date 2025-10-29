@@ -1,5 +1,5 @@
 def call(String buildStatus,String recipient) {   
-   def subject = "${buildStatus}: Job  ${env.JOB_NAME} is - ${env.BUILD_NUMBER}"
+   def subject = "${buildStatus}: Job ${env.JOB_NAME} - ${env.BUILD_NUMBER}"
    def body = """<html>
                  <head>
                     <style>
